@@ -78,7 +78,7 @@ $postid = isset( $_POST['portid'] ) ? $_POST['portid'] : '';
     <!-- Portfolio Single Image
     ============================================= -->
     <div class="col_three_fifth portfolio-single-image nobottommargin col_last">
-        <iframe src="http://player.vimeo.com/video/80975867" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <iframe src="https://player.vimeo.com/video/80975867" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     </div><!-- .portfolio-single-image end -->
 
 </div>
