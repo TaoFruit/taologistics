@@ -1,794 +1,1212 @@
 <!DOCTYPE html>
-<html dir="ltr" lang="en-US">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> 
+<html class="no-js"> <!--<![endif]-->
 <head>
-
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="author" content="TaoFruit" />
-
-	<!-- Stylesheets
-	============================================= -->
-	<link href="http://fonts.googleapis.com/css?family=Poppins:300,400,400i,600,700|Open+Sans:300,400,600,700,800,900" rel="stylesheet" type="text/css" />
-	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
-	<link rel="stylesheet" href="style.css" type="text/css" />
-	<link rel="stylesheet" href="css/dark.css" type="text/css" />
-	<link rel="stylesheet" href="css/swiper.css" type="text/css" />
-
-	<!-- Business Demo Specific Stylesheet -->
-	<link rel="stylesheet" href="demos/business/business.css" type="text/css" />
-	<link rel="stylesheet" href="demos/business/css/fonts.css" type="text/css" />
-	<!-- / -->
-
-	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
-	<link rel="stylesheet" href="css/animate.css" type="text/css" />
-	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
-
-	<link rel="stylesheet" href="one-page/css/et-line.css" type="text/css" />
-
-	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<!--[if lt IE 9]>
-		<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
-	<![endif]-->
-
-	<!-- Theme Color
-	============================================= -->
-	<link rel="stylesheet" href="demos/business/css/colors.css" type="text/css" />
-
-	<!-- Document Title
-	============================================= -->
-	<title>Tao Logistics</title>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="icon" type="image/x-icon" href="images/icon/favicon.ico">
+    <title>Global Logistics | Just another HTML site</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" id="timeline-css-css" href="css/timeline.css" type="text/css" media="all">
+    <link rel="stylesheet" id="packed-css" href="css/_packed.css" type="text/css" media="all">
+    <link rel="stylesheet" id="rs-settings-css" href="js/vendor/revslider/css/settings.css" type="text/css" media="all">
+    <link rel="stylesheet" id="fontello-style-css" href="css/fontello.css" type="text/css" media="all">
+    <link rel="stylesheet" id="main-style-css" href="css/main_style.css" type="text/css" media="all">
+    <link rel="stylesheet" id="custom-style-css" href="css/custom-style.css" type="text/css" media="all">
+    <style id="custom-style-inline-css" type="text/css"></style>
+    <link rel="stylesheet" id="responsive-style-css" href="css/responsive.css" type="text/css" media="all">
+    <!--<link rel="stylesheet" id="customizer-style-css" href="custom_tools/css/front.customizer.css" type="text/css" media="all">-->
 </head>
 
-<body class="stretched">
-
-	<!-- Document Wrapper
-	============================================= -->
-	<div id="wrapper" class="clearfix">
-
-		<!-- Header
-		============================================= -->
-		<header id="header" class="transparent-header not-dark full-header" data-sticky-class="not-dark" data-responsive-class="not-dark" data-sticky-offset="full">
-
-			<div id="header-wrap">
-
-				<div class="container clearfix">
-
-					<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
-
-					<!-- Logo
-					============================================= -->
-					<div id="logo">
-						<a href="index.html" class="standard-logo" data-dark-logo="demos/business/images/logo-dark.png"><img src="demos/business/images/logo.png" alt="Tao Logistics"></a>
-						<a href="index.html" class="retina-logo" data-dark-logo="demos/business/images/logo-dark@2x.png"><img src="demos/business/images/logo@2x.png" alt="Tao Logistics"></a>
-					</div><!-- #logo end -->
-
-					<!-- Primary Navigation
-					============================================= -->
-					<nav id="primary-menu" class="not-dark">
-
-						<ul>
-							<li><a href="services.html"><div>Services</div></a>
-								<ul>
-									<li><a href="services.html#services"><div>Business Operations</div></a></li>
-									<li><a href="services.html#property"><div>Property Management</div></a></li>
-									<li><a href="services.html#logistics"><div>Logistics</div></a></li>
-								</ul>
-							</li>
-							<li><a href="about.html"><div>About Us</div></a></li>
-							<li><a href="faq.html"><div>FAQs</div></a></li>
-							<li><a href="contact.html"><div>Contact</div></a></li>
-						</ul>
-
-						<!-- Top Search
-						============================================= -->
-						<div id="top-search">
-							<a href="#" id="top-search-trigger"><i class="icon-search3"></i><i class="icon-line-cross"></i></a>
-							<form action="search.html" method="get">
-								<input type="text" name="q" class="form-control" value="" placeholder="Type &amp; Hit Enter..">
-							</form>
-						</div><!-- #top-search end -->
-
-					</nav><!-- #primary-menu end -->
-
-				</div>
-
-			</div>
-
-		</header><!-- #header end -->
-
-		<!-- Slider
-		============================================= -->
-		<section id="slider" class="slider-element slider-parallax swiper_wrapper full-screen clearfix" data-loop="true">
-
-			<div class="slider-parallax-inner">
-				<div class="swiper-container swiper-parent">
-					<div class="swiper-wrapper">
-						<div class="swiper-slide dark" style="background-image: url('demos/business/images/slider/singapore.jpg'); background-size: cover">
-							<div class="container clearfix">
-								<div class="slider-caption slider-caption-center">
-									<h2 class="font-primary nott">Business Operations</h2>
-									<p class="t300 font-primary d-none d-sm-block">International Management and Compliance</p>
-									<a href="services.html#services" class="button button-rounded button-large nott ls0 font-primary">Learn More</a>
-								</div>
-							</div>
-						</div>
-						<div class="swiper-slide dark" style="background-image: url('demos/business/images/slider/3.jpg'); background-size: cover">
-							<div class="container clearfix">
-								<div class="slider-caption slider-caption-center">
-									<h2 class="font-primary">Property Management</h2>
-									<p class="t300 font-primary d-none d-sm-block">Commercial and Residential Solutions in scalable fashion</p>
-									<a href="services.html#property" class="button button-rounded button-large nott ls0 font-primary">Learn More</a>
-								</div>
-							</div>
-						</div>
-						<div class="swiper-slide dark" data-top-bottom="background-position:0px -400px;" data-bottom-top="background-position:0px 300px;" style="background-image: url('images/services/ship1920.jpg');   background-size: cover">
-							<div class="container clearfix">
-								<div class="slider-caption slider-caption-center">
-									<h2 class="font-primary">Enterprise Logistics</h2>
-									<p class="t300 font-primary d-none d-sm-block">MVP Roadmaps for Data Driven Business</p>
-									<a href="services.html#logistics" class="button button-rounded button-large nott ls0 font-primary">Learn More</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- Slider Arrows
-					============================================= -->
-					<div class="slider-arrow-left" class="nobg"><i class="icon-line-arrow-left"></i></div>
-					<div class="slider-arrow-right" class="nobg"><i class="icon-line-arrow-right"></i></div>
-				</div>
-
-				<!-- Slider Mouse Icon
-				============================================= -->
-				<a href="#" data-scrollto="#content" data-offset="0" class="dark one-page-arrow"><img class="infinite animated fadeInDown" src="demos/business/images/mouse.svg" alt="" ></a>
-			</div>
-
-		</section>
-
-		<!-- Content
-		============================================= -->
-		<section id="content">
-
-			<div class="content-wrap nobottompadding" style="z-index: 1;">
-
-				<div class="container topmargin clearfix">
-
-					<!-- What We Do
-					============================================= -->
-					<div class="heading-block center noborder" data-heading="W">
-						<h3>What We Do</h3>
-					</div>
-					<div class="row clearfix">
-						<div class="center col-lg-8 offset-lg-2 bottommargin">
-							<h3 class="text-rotater font-secondary" data-separator="," data-rotate="fadeInRight" data-speed="3500">Simple. We manage things.  Tao Management uses long term data analysis to oversee and operate multiple areas needed in communities.  We are the leaders who oversee and manage task forces in the areas of <span class="t-rotate color">Business,Property Management,Medical,Travel,Construction,Real Estate,Infrastructure,Data Mining,International Law</span><br> and all other areas needing management.</h3>
-						</div>
-
-						<div class="clear"></div>
-
-						<!-- Features colomns
-						============================================= -->
-						<div class="row clearfix">
-							<div class="col-lg-4 bottommargin-sm">
-								<div class="feature-box media-box fbox-bg">
-									<div class="fbox-media">
-										<a href="services.html#operations"><img class="image_fade" src="images/services/operate.jpg" alt="Operations"></a>
-									</div>
-									<div class="fbox-desc">
-										<h3 class="nott ls0 t600">Business Operations<span class="subtitle font-secondary t300 ls0">We manage and consult international firms.</span></h3>
-										<a href="services.html#operations" class="button-link noborder color">Read More</a>
-									</div>
-								</div>
-							</div>
-
-							<div class="col-lg-4 bottommargin-sm">
-								<div class="feature-box media-box fbox-bg">
-									<div class="fbox-media">
-										<a href="services.html#property"><img class="image_fade" src="images/services/shenzhen.jpg" alt="Shenzhen"></a>
-									</div>
-									<div class="fbox-desc">
-										<h3 class="nott ls0 t600">Property Management<span class="subtitle font-secondary t300 ls0">for Tech-Driven and Sustainable Communities.</span></h3>
-										<a href="services.html#property" class="button-link noborder color">Read More</a>
-									</div>
-								</div>
-							</div>
-
-							<div class="col-lg-4 bottommargin-sm">
-								<div class="feature-box media-box fbox-bg">
-									<div class="fbox-media">
-										<a href="services.html#logistics"><img class="image_fade" src="images/services/containers.jpg" alt="Featured Box Image"></a>
-									</div>
-									<div class="fbox-desc">
-										<h3 class="nott ls0 t600">Enterprise Logistics<span class="subtitle font-secondary t300 ls0">to drive innovation with MVP Roadmaps</span></h3>
-										<a href="services.html#logistics" class="button-link noborder color">Read More</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<!-- How We Work
-				============================================= -->
-				<div class="section nobg clearfix">
-					<div class="container clearfix">
-						<div class="heading-block bottommargin-lg center noborder" data-heading="T">
-							<h3 class="nott ls0">The Tao Process</h3>
-						</div>
-					</div>
-
-					<!-- How We Work - Carousel
-					============================================= -->
-					<div id="oc-features" class="owl-carousel owl-carousel-full image-carousel carousel-widget">
-						<div class="oc-item">
-							<div class="row cleafix">
-								<div class="col-xl-8">
-									<canvas id="annual"></canvas>
-								</div>
-								<div class="col-xl-4" style="padding: 20px 0 0 20px;">
-									<h3>Market Integration and Tracking</h3>
-									<p>We follow international markets and forecast on a 10-year timeline.  We do not change our pace due to quarterly shifts.  Instead, we follow annual budgets and invest in an array of markets through our trusted community.  Preserving family and community create the business relations we desire.</p>
-									<a href="#" class="button-link">Read More</a>
-								</div>
-							</div>
-						</div>
-						<div class="oc-item">
-							<div class="row cleafix">
-								<div class="col-xl-8">
-									<canvas id="chakra"></canvas>
-								</div>
-								<div class="col-xl-4" style="padding: 20px 0 0 20px;">
-									<h3>Staff Enlightenment</h3>
-									<p>Data analysis and progression tracking are key to managing any successful model.  We've designed our own analytical tools for use by staff and easy to monitor and implement by leaders.</p>
-									<a href="#" class="button-link">Read More</a>
-								</div>
-							</div>
-						</div>
-						<div class="oc-item">
-							<div class="row cleafix">
-							<div class="col_one_third topmargin nobottommargin col_last">
-									<h3>Meticulous Bookkeeping</h3>
-									<p>At the heart of success is the ability to track and analyze our financial flow.  We designed proprietary software and run accounting firms in various countries to keep track of our energy flow.</p>
-									<a href="#" class="button-link">Read More</a>
-								</div>
-								<div class="col-xl-8">
-								<div class="col_two_third topmargin nobottommargin ">
-									<div style="position: relative;" data-height-xl="535" data-height-lg="442" data-height-md="338" data-height-sm="316" data-height-xs="201">
-										<img data-animate="fadeInUp" src="images/services/device1a.png" alt="Mac" style="position: absolute; top: 0; left: 0;">
-										<img data-animate="fadeInRight" data-delay="100" src="images/services/device2a.png" alt="iPad" style="position: absolute; top: 0; left: 0;">
-										<img data-animate="fadeInRight" data-delay="150" src="images/services/device3a.png" alt="iPhone" style="position: absolute; top: 0; left: 0;">
-									</div>				
-								</div>
-								</div>
-								
-							</div>
-						</div>
-					</div>
-				</div>
-
-				
-
-				
-
-			</div>
-
-		</section><!-- #content end -->
-
-		<!-- Footer
-		============================================= -->
-		<footer id="footer" class="not-dark">
-
-			<div class="container">
-
-				<!-- Footer Widgets
-				============================================= -->
-				<div class="footer-widgets-wrap clearfix">
-
-					<div class="col_two_third">
-
-						<div class="col_one_third">
-
-							<div class="widget clearfix">
-
-								<img src="images/services/footer-logo.png" alt="" class="footer-logo">
-
-								<p>We <strong>streamline</strong> and let business <strong>flow naturally</strong>.  We manage with community at the <strong>center</strong> of our <strong>vision</strong>.</p>
-
-								<div style="background: url('images/world-map.png') no-repeat center center; background-size: 100%;">
-									<address>
-										<strong>Headquarters:</strong><br>
-										125 Frederick St, Marietta OH<br>
-										Marietta, OH 45750<br>
-									</address>
-									<abbr title="Phone Number"><strong>Phone:</strong></abbr> +1 740-538-0172<br>
-									<abbr title="Phone Number"><strong>Fax:</strong></abbr> +1 614-573-0537 <br>
-									<abbr title="Email Address"><strong>Email:</strong></abbr> info@taologistics.net
-									
-								</div>
-
-							</div>
-
-						</div>
-
-						<div class="col_one_third">
-
-							<div class="widget widget_links clearfix">
-
-								<h4>Companies</h4>
-
-								<ul>
-									<li><a href="https://taolifestyle.org/">Tao Lifestyle</a></li>
-									<li><a href="https://taofruit.com/">Tao Fruit</a></li>
-									<li><a href="https://taocottage.com/">Tao Cottage</a></li>
-									<li><a href="https://taofinances.com/">Tao Finances</a></li>
-									<li><a href="https://taolingo.com/">Tao Lingo</a></li>
-									<li><a href="https://taoprecision.com/">Tao Precision</a></li>
-									<li><a href="https://taodreams.org/">Tao Dreams</a></li>
-									<li><a href="https://taosunshine.com/">Tao Sunshine</a></li>
-								</ul>
-
-							</div>
-
-						</div>
-
-						<div class="col_one_third col_last">
-
-							<div class="widget clearfix">
-								<h4>Tao Resources</h4>
-
-								<div id="post-list-footer">
-									<div class="spost clearfix">
-										<div class="entry-c">
-											<div class="entry-title">
-												<h4><a href="https://www.xinhuanet.com/english/2018-04/12/c_137105769.htm">Ma Xiaoqiu of Dingyifeng Group</a></h4>
-											</div>
-											<ul class="entry-meta">
-												<li>Tao Management Philosophy</li>
-											</ul>
-										</div>
-									</div>
-
-									<div class="spost clearfix">
-										<div class="entry-c">
-											<div class="entry-title">
-												<h4><a href="https://amzn.to/2HXuBdc">The Art of War</a></h4>
-											</div>
-											<ul class="entry-meta">
-												<li>Taoist Community Leadership</li>
-											</ul>
-										</div>
-									</div>
-
-									<div class="spost clearfix">
-										<div class="entry-c">
-											<div class="entry-title">
-												<h4><a href="https://amzn.to/2HnpSQV">Tao te Ching</a></h4>
-											</div>
-											<ul class="entry-meta">
-												<li>Taoist Philosophy for Everyone</li>
-											</ul>
-										</div>
-									</div>
-								</div>
-							</div>
-
-						</div>
-
-					</div>
-
-					<div class="col_one_third col_last">
-
-						<div class="widget clearfix" style="margin-bottom: -20px;">
-
-							<div class="row">
-
-								<div class="col-lg-6 bottommargin-sm">
-									<div class="counter counter-small"><span data-from="10" data-to="38446913" data-refresh-interval="80" data-speed="2650" data-comma="true"></span></div>
-									<h5 class="nobottommargin">Total Customers</h5>
-								</div>
-
-								<div class="col-lg-6 bottommargin-sm">
-									<div class="counter counter-small"><span data-from="50" data-to="3642" data-refresh-interval="50" data-speed="3000" data-comma="true"></span></div>
-									<h5 class="nobottommargin">Operations</h5>
-								</div>
-
-							</div>
-
-						</div>
-
-						<div class="widget subscribe-widget clearfix">
-							<h5><strong>Subscribe</strong> to Our Newsletter to get Important News, Amazing Offers &amp; Inside Scoops:</h5>
-							<div class="widget-subscribe-form-result"></div>
-							<form action="#" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-								<div class="input-group divcenter">
-									<div class="input-group-prepend">
-										<div class="input-group-text"><i class="icon-email2"></i></div>
-									</div>
-									<input type="email" id="widget-subscribe-form-email" name="widget-subscribe-form-email" class="form-control required email" placeholder="Enter your Email">
-									<div class="input-group-append">
-										<button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe">Subscribe</button>
-									</div>
-								</div>
-							</form>
-						</div>
-
-						<div class="widget clearfix" style="margin-bottom: -20px;">
-
-							<div class="row">
-
-								<div class="col-lg-6 clearfix bottommargin-sm">
-									<a href="#" class="social-icon si-dark si-colored si-facebook nobottommargin" style="margin-right: 10px;">
-										<i class="icon-facebook"></i>
-										<i class="icon-facebook"></i>
-									</a>
-									<a href="#"><small style="display: block; margin-top: 3px;"><strong>Like us</strong><br>on Facebook</small></a>
-								</div>
-								<div class="col-lg-6 clearfix">
-									<a href="#" class="social-icon si-dark si-colored si-rss nobottommargin" style="margin-right: 10px;">
-										<i class="icon-rss"></i>
-										<i class="icon-rss"></i>
-									</a>
-									<a href="#"><small style="display: block; margin-top: 3px;"><strong>Subscribe</strong><br>to RSS Feeds</small></a>
-								</div>
-
-							</div>
-
-						</div>
-
-					</div>
-
-				</div><!-- .footer-widgets-wrap end -->
-
-			</div>
-
-			<!-- Copyrights
-			============================================= -->
-			<div id="copyrights">
-
-				<div class="container clearfix">
-
-					<div class="col_half">
-						Copyrights &copy; 2018 All Rights Reserved by TaoLimited LLC<br>
-						<div class="copyright-links"><a href="tos.html">Terms of Use</a> / <a href="privacy.html">Privacy Policy</a></div>
-					</div>
-
-					<div class="col_half col_last tright">
-						<div class="fright clearfix">
-							<a href="#" class="social-icon si-small si-borderless si-facebook">
-								<i class="icon-facebook"></i>
-								<i class="icon-facebook"></i>
-							</a>
-
-							<a href="#" class="social-icon si-small si-borderless si-twitter">
-								<i class="icon-twitter"></i>
-								<i class="icon-twitter"></i>
-							</a>
-
-							<a href="#" class="social-icon si-small si-borderless si-gplus">
-								<i class="icon-gplus"></i>
-								<i class="icon-gplus"></i>
-							</a>
-
-							<a href="#" class="social-icon si-small si-borderless si-pinterest">
-								<i class="icon-pinterest"></i>
-								<i class="icon-pinterest"></i>
-							</a>
-
-							<a href="#" class="social-icon si-small si-borderless si-vimeo">
-								<i class="icon-vimeo"></i>
-								<i class="icon-vimeo"></i>
-							</a>
-
-							<a href="#" class="social-icon si-small si-borderless si-github">
-								<i class="icon-github"></i>
-								<i class="icon-github"></i>
-							</a>
-
-							<a href="#" class="social-icon si-small si-borderless si-yahoo">
-								<i class="icon-yahoo"></i>
-								<i class="icon-yahoo"></i>
-							</a>
-
-							<a href="#" class="social-icon si-small si-borderless si-linkedin">
-								<i class="icon-linkedin"></i>
-								<i class="icon-linkedin"></i>
-							</a>
-						</div>
-
-						<div class="clear"></div>
-
-						<i class="icon-envelope2"></i> info@taologistics.net <span class="middot">&middot;</span> <i class="icon-headphones"></i> +01-740-538-0172 <span class="middot">&middot;</span> <i class="icon-skype2"></i> Tao Logistics
-					</div>
-
-				</div>
-
-			</div><!-- #copyrights end -->
-
-		</footer><!-- #footer end -->
-
-	</div><!-- #wrapper end -->
-
-	<!-- Go To Top
-	============================================= -->
-	<div id="gotoTop" class="icon-angle-up"></div>
-
-	<!-- External JavaScripts
-	============================================= -->
-	<script src="js/jquery.js"></script>
-	<script src="js/plugins.js"></script>
-
-	<!-- Footer Scripts
-	============================================= -->
-	<script src="js/functions.js"></script>
-
-	<script>
-		// Owl Carousel Scripts
-		$('#oc-features').owlCarousel({
-			items: 1,
-			margin: 60,
-		    nav: true,
-		    navText: ['<i class="icon-line-arrow-left"></i>','<i class="icon-line-arrow-right"></i>'],
-		    dots: false,
-		    stagePadding: 30,
-		    responsive:{
-				768: { items: 2 },
-				1200: { stagePadding: 200 }
-			},
-		});
-	</script>
-	
-	<!-- Charts JS
-	============================================= -->
-	<script src="js/chart.js"></script>
-	<script src="js/chart-utils.js"></script>
-
-	<script>
-
-		var randomScalingFactor = function() {
-			return Math.round(Math.random() * 100);
-		};
-
-		var chartColors = window.chartColors;
-		var color = Chart.helpers.color;
-		var config = {
-			data: {
-				datasets: [{
-					data: [
-						randomScalingFactor(),
-						randomScalingFactor(),
-						randomScalingFactor(),
-						randomScalingFactor(),
-						randomScalingFactor(),
-						randomScalingFactor(),
-						randomScalingFactor(),
-					],
-					backgroundColor: [
-						color(chartColors.red).alpha(0.5).rgbString(),
-						color(chartColors.orange).alpha(0.5).rgbString(),
-						color(chartColors.yellow).alpha(0.5).rgbString(),
-						color(chartColors.green).alpha(0.5).rgbString(),
-						color(chartColors.blue).alpha(0.5).rgbString(),
-						color(chartColors.indigo).alpha(0.5).rgbString(),
-						color(chartColors.purple).alpha(0.5).rgbString(),
-					],
-					label: 'Chakras' // for legend
-				}],
-				labels: [
-					"Root",
-					"Sacral",
-					"Solar Plexus",
-					"Heart",
-					"Throat",
-					"3rd Eye",
-					"Crown",
-				]
-			},
-			options: {
-				responsive: true,
-				legend: {
-					position: 'left',
-				},
-				title: {
-					display: true,
-					text: 'Staff Chakra Alignment'
-				},
-				scale: {
-				  ticks: {
-					beginAtZero: true
-				  },
-				  reverse: false
-				},
-				animation: {
-					animateRotate: false,
-					animateScale: true
-				}
-			}
-		};
-
-		window.onload = function() {
-			var ctx = document.getElementById("chakra");
-			window.myPolarArea = Chart.PolarArea(ctx, config);
-			
-			
-			var ctx = document.getElementById("annual").getContext("2d");
-			window.myBar = new Chart(ctx, {
-				type: 'bar',
-				data: barChartData,
-				options: {
-					responsive: true,
-					legend: {
-						position: 'top',
-					},
-					title: {
-						display: true,
-						text: 'Annual Returns'
-					}
-				}
-			});
-
-		};
-
-		document.getElementById('randomizeData').addEventListener('click', function() {
-			config.data.datasets.forEach(function(piece, i) {
-				piece.data.forEach(function(value, j) {
-					config.data.datasets[i].data[j] = randomScalingFactor();
-				});
-			});
-			window.myPolarArea.update();
-		});
-
-		var colorNames = Object.keys(window.chartColors);
-		document.getElementById('addData').addEventListener('click', function() {
-			if (config.data.datasets.length > 0) {
-				config.data.labels.push('data #' + config.data.labels.length);
-				config.data.datasets.forEach(function(dataset) {
-					var colorName = colorNames[config.data.labels.length % colorNames.length];
-					dataset.backgroundColor.push(window.chartColors[colorName]);
-					dataset.data.push(randomScalingFactor());
-				});
-				window.myPolarArea.update();
-			}
-		});
-		document.getElementById('removeData').addEventListener('click', function() {
-			config.data.labels.pop(); // remove the label first
-			config.data.datasets.forEach(function(dataset) {
-				dataset.backgroundColor.pop();
-				dataset.data.pop();
-			});
-			window.myPolarArea.update();
-		});
-
-	</script>
-	
-	<script>
-
-		var MONTHS = ["2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022"];
-		var color = Chart.helpers.color;
-		var barChartData = {
-			labels: ["2011", "2012", "2013", "2014", "2015", "2016", "2017"],
-			datasets: [{
-				label: 'USA',
-				backgroundColor: color(window.chartColors.red).alpha(0.5).rgbString(),
-				borderColor: window.chartColors.red,
-				borderWidth: 1,
-				data: [
-					randomScalingFactor(),
-					randomScalingFactor(),
-					randomScalingFactor(),
-					randomScalingFactor(),
-					randomScalingFactor(),
-					randomScalingFactor(),
-					randomScalingFactor()
-				]
-			}, {
-				label: 'Hong Kong',
-				backgroundColor: color(window.chartColors.blue).alpha(0.5).rgbString(),
-				borderColor: window.chartColors.blue,
-				borderWidth: 1,
-				data: [
-					randomScalingFactor(),
-					randomScalingFactor(),
-					randomScalingFactor(),
-					randomScalingFactor(),
-					randomScalingFactor(),
-					randomScalingFactor(),
-					randomScalingFactor()
-				]
-			}, {
-				label: 'Europe',
-				backgroundColor: color(window.chartColors.yellow).alpha(0.5).rgbString(),
-				borderColor: window.chartColors.yellow,
-				borderWidth: 1,
-				data: [
-					randomScalingFactor(),
-					randomScalingFactor(),
-					randomScalingFactor(),
-					randomScalingFactor(),
-					randomScalingFactor(),
-					randomScalingFactor(),
-					randomScalingFactor()
-				]
-			}, {
-				label: 'Central America',
-				backgroundColor: color(window.chartColors.green).alpha(0.5).rgbString(),
-				borderColor: window.chartColors.green,
-				borderWidth: 1,
-				data: [
-					randomScalingFactor(),
-					randomScalingFactor(),
-					randomScalingFactor(),
-					randomScalingFactor(),
-					randomScalingFactor(),
-					randomScalingFactor(),
-					randomScalingFactor()
-				]
-			}
-			  ]
-
-		};
-
-		
-
-		document.getElementById('randomizeData').addEventListener('click', function() {
-			var zero = Math.random() < 0.2 ? true : false;
-			barChartData.datasets.forEach(function(dataset) {
-				dataset.data = dataset.data.map(function() {
-					return zero ? 0.0 : randomScalingFactor();
-				});
-
-			});
-			window.myBar.update();
-		});
-
-		var colorNames = Object.keys(window.chartColors);
-		document.getElementById('addDataset').addEventListener('click', function() {
-			var colorName = colorNames[barChartData.datasets.length % colorNames.length];;
-			var dsColor = window.chartColors[colorName];
-			var newDataset = {
-				label: 'Dataset ' + barChartData.datasets.length,
-				backgroundColor: color(dsColor).alpha(0.5).rgbString(),
-				borderColor: dsColor,
-				borderWidth: 1,
-				data: []
-			};
-
-			for (var index = 0; index < barChartData.labels.length; ++index) {
-				newDataset.data.push(randomScalingFactor());
-			}
-
-			barChartData.datasets.push(newDataset);
-			window.myBar.update();
-		});
-
-		document.getElementById('addData').addEventListener('click', function() {
-			if (barChartData.datasets.length > 0) {
-				var month = MONTHS[barChartData.labels.length % MONTHS.length];
-				barChartData.labels.push(month);
-
-				for (var index = 0; index < barChartData.datasets.length; ++index) {
-					//window.myBar.addData(randomScalingFactor(), index);
-					barChartData.datasets[index].data.push(randomScalingFactor());
-				}
-
-				window.myBar.update();
-			}
-		});
-
-		document.getElementById('removeDataset').addEventListener('click', function() {
-			barChartData.datasets.splice(0, 1);
-			window.myBar.update();
-		});
-
-		document.getElementById('removeData').addEventListener('click', function() {
-			barChartData.labels.splice(-1, 1); // remove the label first
-
-			barChartData.datasets.forEach(function(dataset, datasetIndex) {
-				dataset.data.pop();
-			});
-
-			window.myBar.update();
-		});
-
-	</script>
+<body class="home page body_style_fullscreen body_filled article_style_stretch top_panel_opacity_transparent top_panel_over user_menu_hide sidebar_hide">
+
+    <div class="body_wrap">
+
+        <div class="page_wrap">
+
+            <div class="top_panel_fixed_wrap"></div>
+            <header class="top_panel_wrap">
+                <div class="menu_main_wrap logo_left menu_show">
+                    <div class="container">
+                        <div class="logo">
+                            <a href="index.html">
+                                <img src="images/icon/157x54.png" class="logo_main" alt="">
+                                <span class="logo_info"></span>
+                            </a>
+                        </div>
+                        <div class="menu_main">
+                            <nav class="menu_main_nav_area">
+                                <ul id="menu_main" class="menu_main_nav">
+                                    <li class="menu-item current-menu-item current-menu-parent menu-item-has-children">
+                                        <a href="index.html" class="sf-with-ul">Home</a>
+                                        <ul class="sub-menu">
+                                            <li class="menu-item current-menu-item current_page_item">
+                                                <a href="index.html">Homepage Default</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="homepage-optional.html">Homepage Optional</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="homepage-creative.html">Homepage Creative</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="our-services.html">Our services</a>
+                                    </li>
+                                    <li class="menu-item menu-item-has-children">
+                                        <a href="#" class="sf-with-ul">Features</a>
+                                        <ul class="sub-menu">
+                                            <li class="menu-item">
+                                                <a href="shortcodes.html">Shortcodes</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="typography.html">Typography</a>
+                                            </li>
+                                            <li class="menu-item menu-item-has-children">
+                                                <a href="#" class="sf-with-ul">Gallery</a>
+                                                <ul class="sub-menu">
+                                                    <li class="menu-item">
+                                                        <a href="grid-alternative.html">Grid Alternative</a>
+                                                    </li>
+                                                    <li class="menu-item menu-item-has-children">
+                                                        <a href="#" class="sf-with-ul">Classic Style</a>
+                                                        <ul class="sub-menu">
+                                                            <li class="menu-item">
+                                                                <a href="gallery-classic-2-columns.html">2 Columns</a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a href="gallery-classic-3-columns.html">3 Columns</a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a href="gallery-classic-4-columns.html">4 Columns</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="menu-item menu-item-has-children">
+                                                        <a href="#" class="sf-with-ul">Grid Style</a>
+                                                        <ul class="sub-menu">
+                                                            <li class="menu-item">
+                                                                <a href="gallery-grid-2-columns.html">2 Columns</a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a href="gallery-grid-3-columns.html">3 Columns</a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a href="gallery-grid-4-columns.html">4 Columns</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="menu-item menu-item-has-children">
+                                                        <a href="#" class="sf-with-ul">Masonry Style</a>
+                                                        <ul class="sub-menu">
+                                                            <li class="menu-item">
+                                                                <a href="gallery-masonry-2-columns.html">2 Columns</a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a href="gallery-masonry-3-columns.html">3 Columns</a>
+                                                            </li>
+                                                            <li class="menu-item">
+                                                                <a href="gallery-masonry-4-columns.html">4 Columns</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="menu-item">
+                                                        <a href="gallery-post.html">Gallery Post</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu-item menu-item-has-children">
+                                                <a href="#" class="sf-with-ul">Pages</a>
+                                                <ul class="sub-menu">
+                                                    <li class="menu-item">
+                                                        <a href="about-us.html">About Us</a>
+                                                    </li>
+                                                    <li class="menu-item">
+                                                        <a href="team.html">Our team</a>
+                                                    </li>
+                                                    <li class="menu-item">
+                                                        <a href="our-prices.html">Our Prices</a>
+                                                    </li>
+                                                    <li class="menu-item">
+                                                        <a href="profile.html">Profile</a>
+                                                    </li>
+                                                    <li class="menu-item">
+                                                        <a href="company-timeline.html">Company Timeline</a>
+                                                    </li>
+                                                    <li class="menu-item">
+                                                        <a href="support.html">Support</a>
+                                                    </li>
+                                                    <li class="menu-item">
+                                                        <a href="not_existing_page.html">Page 404</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item menu-item-has-children">
+                                        <a href="blog.html" class="sf-with-ul">Blog</a>
+                                        <ul class="sub-menu">
+                                            <li class="menu-item menu-item-has-children">
+                                                <a href="#" class="sf-with-ul">Blog Style</a>
+                                                <ul class="sub-menu">
+                                                    <li class="menu-item">
+                                                        <a href="post-formats-with-sidebar.html">With Sidebar</a>
+                                                    </li>
+                                                    <li class="menu-item">
+                                                        <a href="post-formats-without-sidebar.html">Without sidebar</a>
+                                                    </li>
+                                                    <li class="menu-item">
+                                                        <a href="masonry-style.html">Masonry Style</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu-item menu-item-has-children">
+                                                <a href="#" class="sf-with-ul">Blog Post</a>
+                                                <ul class="sub-menu">
+                                                    <li class="menu-item">
+                                                        <a href="standard-post.html">Standard Post</a>
+                                                    </li>
+                                                    <li class="menu-item">
+                                                        <a href="standard-post-with-sidebar.html">Standard Post with Sidebar</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="contacts.html">Contact</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="request-a-quote.html">Request A Quote</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <a href="#" class="menu_main_responsive_button icon-menu"></a>
+                            <div class="search_wrap search_style_regular search_state_closed search_ajax">
+                                <div class="search_form_wrap">
+                                    <form method="get" class="search_form" action="index.html">
+                                        <button type="submit" class="search_submit icon-search" title="Open search"></button>
+                                        <input type="text" class="search_field" placeholder="Search" value="" name="s" title="Search">
+                                    </form>
+                                </div>
+                                <div class="search_results widget_area">
+                                        <a class="search_results_close icon-cancel"></a>
+                                    <div class="search_results_content"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>           
+
+            <section class="slider_wrap slider_fullwide slider_engine_revo slider_alias_main">
+                        
+                <div id="rev_slider_wrapper" class="rev_slider_wrapper fullwidthbanner-container">
+                    <!-- START REVOLUTION SLIDER 4.6.92 fullwidth mode -->
+                    <div id="rev_slider_1_1" class="rev_slider fullwidthabanner tp-simpleresponsive">
+                        <ul class="tp-revslider-mainul">    <!-- SLIDE  -->
+                            <li data-transition="fade" data-slotamount="7" data-masterspeed="400" data-saveperformance="off" class="tp-revslider-slidesli">
+                                <!-- MAIN IMAGE -->
+                                <div class="slotholder" data-bgposition="center top" data-bgfit="cover">
+                                    <img class="tp-bgimg defaultimg" alt="" src="images/slider/2200x1400.png" data-src="images/slider/2200x1400.png">
+                                </div>
+                                <!-- LAYERS -->
+
+                                <!-- LAYER NR. 1 -->
+                                <div class="tp-caption customin fadeout start" data-x="-2115" data-y="-2" data-customin="x:3000;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0.66;transformPerspective:600;transformOrigin:50% 50%;" data-speed="7700" data-start="0" data-easing="Power0.easeIn" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300" data-endeasing="Quad.easeInOut">
+                                    <img src="images/slider/1889x527.png" alt=""> 
+                                </div>
+
+                                <!-- LAYER NR. 2 -->
+                                <div class="tp-caption trx-big tp-fade fadeout tp-resizeme start" data-x="center" data-hoffset="0" data-y="200" data-speed="500" data-start="600" data-easing="Quad.easeOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="400">
+                                    Large enough to handle, <br>
+                                    small enough to care 
+                                </div>
+
+                                <!-- LAYER NR. 3 -->
+                                <div class="tp-caption customin ltr start" data-x="center" data-hoffset="-16" data-y="235" data-customin="x:-590;y:-140;z:-70;rotationX:0;rotationY:0;rotationZ:10;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-speed="600" data-start="1200" data-easing="Quad.easeOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="600" data-endeasing="Quad.easeIn">
+                                    <img src="images/slider/1400x283.png" alt="" data-ww="1241.696113074205" data-hh="251"> 
+                                </div>
+
+                                <!-- LAYER NR. 4 -->
+                                <div class="tp-caption trx-no-style sfb fadeout start" data-x="center" data-hoffset="0" data-y="500" data-speed="500" data-start="1600" data-easing="Quad.easeOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="400">
+                                    <a href="#" class="sc_button sc_button_square sc_button_bg_light">
+                                        <span>read more</span>
+                                    </a> 
+                                </div>
+                            </li>
+                            <!-- SLIDE  -->
+                            <li data-transition="fade" data-slotamount="7" data-masterspeed="400" data-saveperformance="off" class="tp-revslider-slidesli">
+                                <!-- MAIN IMAGE -->
+                                <div class="slotholder" data-bgposition="center top" data-bgfit="cover">
+                                    <img class="tp-bgimg defaultimg" alt="" src="images/slider/2200x1400.png" data-src="images/slider/2200x1400.png">
+                                    <div class="slot">
+                                        <div class="slotslide">
+                                            <div></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- LAYERS -->
+
+                                <!-- LAYER NR. 1 -->
+                                <div class="tp-caption lfl stl start" data-x="center" data-hoffset="-408" data-y="bottom" data-voffset="1" data-speed="500" data-start="1900" data-easing="Quad.easeOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="400" data-endeasing="Quad.easeIn">
+                                    <img src="images/slider/283x246.png" alt=""> 
+                                </div>
+
+                                <!-- LAYER NR. 2 -->
+                                <div class="tp-caption sfr ltr start" data-x="center" data-hoffset="146" data-y="bottom" data-voffset="4" data-speed="500" data-start="1400" data-easing="Quad.easeOut" data-elementdelay="0.1" data-endelementdelay="0.5" data-endspeed="700" data-endeasing="Quad.easeIn">
+                                    <img src="images/slider/815x246.png" alt=""> 
+                                </div>
+
+                                <!-- LAYER NR. 3 -->
+                                <div class="tp-caption trx-big-extra tp-fade fadeout tp-resizeme start" data-x="center" data-hoffset="65" data-y="200" data-speed="500" data-start="600" data-easing="Quad.easeOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="400">
+                                    Large enough to handle,<br>
+                                    small enough to care 
+                                </div>
+
+                                <!-- LAYER NR. 4 -->
+                                <div class="tp-caption randomrotate fadeout start" data-x="center" data-hoffset="435" data-y="307" data-speed="700" data-start="2500" data-easing="easeOutBounce" data-elementdelay="1" data-endelementdelay="0.1" data-endspeed="500">
+                                    <img src="images/slider/107x53.png" alt=""> 
+                                </div>
+                            </li>
+                            <!-- SLIDE  -->
+                            <li data-transition="fade" data-slotamount="7" data-masterspeed="400" data-saveperformance="off" class="tp-revslider-slidesli">
+                                <!-- MAIN IMAGE -->
+                                <div class="slotholder" data-bgposition="center top" data-bgfit="cover">
+                                    <img class="tp-bgimg defaultimg" alt="" src="images/slider/2200x1400.png" data-src="images/slider/2200x1400.png">
+                                </div>
+                                <!-- LAYERS -->
+
+                                <!-- LAYER NR. 1 -->
+                                <div class="tp-caption trx-big-left sfb fadeout tp-resizeme start" data-x="100" data-y="250" data-speed="500" data-start="1200" data-easing="Quad.easeOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="400">
+                                    Large enough to handle,<br>
+                                    small enough to care 
+                                </div>
+
+                                <!-- LAYER NR. 2 -->
+                                <div class="tp-caption trx-normal-white sfb fadeout tp-resizeme start" data-x="100" data-y="370" data-speed="500" data-start="1600" data-easing="Quad.easeOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300">
+                                    As a market leader in global air freight forwarding, Global<br>
+                                    Logistics excels in providing tailored transportation<br>
+                                    solutions for client-specific needs.  
+                                </div>
+
+                                <!-- LAYER NR. 3 -->
+                                <div class="tp-caption trx-no-style sfb fadeout start" data-x="100" data-y="475" data-speed="500" data-start="2000" data-easing="Quad.easeOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="400">
+                                    <a href="#" class="sc_button sc_button_square sc_button_bg_light">
+                                        <span>read more</span>
+                                    </a> 
+                                </div>
+
+                                <!-- LAYER NR. 4 -->
+                                <div class="tp-caption sfb stb start" data-x="right" data-hoffset="-120" data-y="bottom" data-voffset="10" data-speed="600" data-start="800" data-easing="Quad.easeOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="400" data-endeasing="Quad.easeIn">
+                                    <img src="images/slider/480x538.png" alt="" data-ww="408.9807692307693" data-hh="459"> 
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                                
+                </div><!-- END REVOLUTION SLIDER -->        
+            </section>
+
+            <div class="page_content">
+
+                <section class="fullwidth_section forwarding_section">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="sc_section">
+                                    <div class="sc_content container">
+                                        <div class="columns_wrap">
+                                            <div class="col-md-3 col-sm-6 col-xs-6 sc_column_item">
+                                                <h4 class="sc_title sc_title_regular">Air Freight</h4>
+                                                <h4 class="sc_title sc_title_regular">Forwarding</h4>
+                                                    <p>As a leader in global air freight forwarding, OIA Global excels in providing tailored transportation</p>
+                                                <a href="#" class="sc_button sc_button_square sc_button_bg_underline  sc_button_iconed">
+                                                    read more
+                                                    <span class="sc_button_iconed icon-right"></span> 
+                                                </a>
+                                            </div>
+                                            <div class="col-md-3 col-sm-6 col-xs-6 sc_column_item">
+                                                <h4 class="sc_title sc_title_regular">Ocean Freight</h4>
+                                                <h4 class="sc_title sc_title_regular">Forwarding</h4>
+                                                    <p>Ocean Freight plays perhaps the most vital role in most transportation and supply chain</p>
+                                                <a href="#" class="sc_button sc_button_square sc_button_bg_underline  sc_button_iconed ">
+                                                    read more
+                                                    <span class="sc_button_iconed icon-right"></span> 
+                                                </a>
+                                            </div>
+                                            <div class="col-md-3 col-sm-6 col-xs-6 sc_column_item">
+                                                <h4 class="sc_title sc_title_regular">Road Freight</h4>
+                                                <h4 class="sc_title sc_title_regular">Forwarding</h4>
+                                                    <p>Nearly all items of cargo are transported at some stage of their journey along the world’s roads</p>
+                                                <a href="#" class="sc_button sc_button_square sc_button_bg_underline  sc_button_iconed ">
+                                                    read more
+                                                    <span class="sc_button_iconed icon-right"></span> 
+                                                </a>
+                                            </div>
+                                            <div class="col-md-3 col-sm-6 col-xs-6 sc_column_item">
+                                                <h4 class="sc_title sc_title_regular">Expedited</h4>
+                                                <h4 class="sc_title sc_title_regular">Services</h4>
+                                                    <p>Global Logistic understands part of the supply chain optimization process is having a level of service</p>
+                                                <a href="#" class="sc_button sc_button_square sc_button_bg_underline  sc_button_iconed ">
+                                                    read more
+                                                    <span class="sc_button_iconed icon-right"></span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="fullwidth_section no_padding_container dark_section">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="sc_section">
+                                    <div class="sc_section_overlay">
+                                        <div class="sc_section_content">
+                                            <div class="sc_content container">
+                                                <div class="sc_section sc_tabs_section style_3">
+                                                    <div id="sc_tabs_1" class="sc_tabs sc_tabs_style_3" data-active="0">
+                                                        <div class="sc_tabs_wrap_first">
+                                                            <div class="sc_tabs_wrap">
+                                                                <div class="sc_tabs_top">
+                                                                    <h4 class="subtitle">Global<br>Logistics</h4>
+                                                                    <h2 class="title">our<br>services</h2>
+                                                                    <div class="description">As a market leader in global air freight forwarding.</div>
+                                                                </div>
+                                                                <ul class="sc_tabs_titles" role="tablist">
+                                                                    <li class="sc_tabs_title" role="tab" tabindex="0" aria-controls="sc_tab_1" aria-labelledby="sc_tab_1_tab" aria-selected="true" aria-expanded="true">
+                                                                        <a href="#sc_tab_1" class="theme_button ui-tabs-anchor" id="sc_tab_1_tab" tabindex="-1">
+                                                                        Logistics
+                                                                            <span class="icon-right11"></span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li class="sc_tabs_title" role="tab" tabindex="-1" aria-controls="sc_tab_2" aria-labelledby="sc_tab_2_tab" aria-selected="false" aria-expanded="false">
+                                                                        <a href="#sc_tab_2" class="theme_button ui-tabs-anchor" id="sc_tab_2_tab" tabindex="-1">
+                                                                        Packaging
+                                                                            <span class="icon-right11"></span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li class="sc_tabs_title last ui-state-default ui-corner-top" role="tab" tabindex="-1" aria-controls="sc_tab_3" aria-labelledby="sc_tab_3_tab" aria-selected="false" aria-expanded="false">
+                                                                        <a href="#sc_tab_3" class="theme_button ui-tabs-anchor" id="sc_tab_3_tab" tabindex="-1">
+                                                                        Materials
+                                                                            <span class="icon-right11"></span>
+                                                                        </a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div> 
+                                                            <div id="sc_tab_1" class="sc_tabs_content" aria-labelledby="sc_tab_1_tab" role="tabpanel" aria-hidden="false">
+                                                                <p>Whether you require distribution or fulfillment, defined freight forwarding, or a complete supply chain solution, GL can provide you with a customized solution tailored to your needs.</p>
+                                                                <div class="sc_skills sc_skills_bar3 sc_skills_vertical" data-type="bar3" data-subtitle="Skills" data-dir="vertical">
+                                                                    <div class="columns_wrap sc_skills_columns sc_skills_columns_5">
+                                                                        <div class="sc_skills_column col-sm-2 col-xs-2">
+                                                                            <div class="sc_skills_item sc_skills_style_1">
+                                                                                <div class="sc_skills_icon">
+                                                                                    <span class="icon-plane-2"></span>
+                                                                                </div> 
+                                                                                <div class="sc_skills_total width_icon" data-start="0" data-stop="99" data-step="1" data-max="100" data-speed="31" data-duration="3069" data-ed="%"></div>
+                                                                                <div class="sc_skills_count"></div> 
+                                                                                <div class="sc_skills_info">
+                                                                                    <div class="sc_skills_label">Air Freight </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div> 
+                                                                        <div class="sc_skills_column col-sm-2 col-xs-2">
+                                                                            <div class="sc_skills_item sc_skills_style_1">
+                                                                                <div class="sc_skills_icon">
+                                                                                    <span class="icon-ship-2"></span>
+                                                                                </div> 
+                                                                                <div class="sc_skills_total width_icon" data-start="0" data-stop="90" data-step="1" data-max="100" data-speed="13" data-duration="1170" data-ed="%"></div>
+                                                                                <div class="sc_skills_count"></div> 
+                                                                                <div class="sc_skills_info">
+                                                                                    <div class="sc_skills_label">Ocean Freight</div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div> 
+                                                                        <div class="sc_skills_column col-sm-2 col-xs-2">
+                                                                            <div class="sc_skills_item sc_skills_style_1">
+                                                                                <div class="sc_skills_icon">
+                                                                                    <span class="icon-truck-2"></span>
+                                                                                </div> 
+                                                                                <div class="sc_skills_total width_icon" data-start="0" data-stop="98" data-step="1" data-max="100" data-speed="15" data-duration="1470" data-ed="%"></div>
+                                                                                <div class="sc_skills_count"></div> 
+                                                                                <div class="sc_skills_info">
+                                                                                    <div class="sc_skills_label">Road Freight</div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div> 
+                                                                        <div class="sc_skills_column col-sm-2 col-xs-2">
+                                                                            <div class="sc_skills_item sc_skills_style_1">
+                                                                                <div class="sc_skills_icon">
+                                                                                    <span class="icon-cargo"></span>
+                                                                                </div> 
+                                                                                <div class="sc_skills_total width_icon" data-start="0" data-stop="86" data-step="1" data-max="100" data-speed="11" data-duration="946" data-ed="%"></div>
+                                                                                <div class="sc_skills_count"></div> 
+                                                                                <div class="sc_skills_info">
+                                                                                    <div class="sc_skills_label">Warehousing</div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div> 
+                                                                        <div class="sc_skills_column col-sm-2 col-xs-2">
+                                                                            <div class="sc_skills_item sc_skills_style_1">
+                                                                                <div class="sc_skills_icon">
+                                                                                    <span class="icon-support"></span>
+                                                                                </div> 
+                                                                                <div class="sc_skills_total width_icon" data-start="0" data-stop="89" data-step="1" data-max="100" data-speed="16" data-duration="1424" data-ed="%"></div>
+                                                                                <div class="sc_skills_count"></div> 
+                                                                                <div class="sc_skills_info">
+                                                                                    <div class="sc_skills_label">Expedited Services</div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div id="sc_tab_2" class="sc_tabs_content" aria-labelledby="sc_tab_2_tab" role="tabpanel" aria-hidden="true">
+                                                                <h3 class="sc_title sc_title_regular">Secure Packaging</h3>
+                                                                    <p>GL has a menu of supply chain solutions that can optimize the effectiveness of your product promotion, and reduce the cost of your packaging and distribution as well as your carbon footprint.</p>
+                                                                    <p>“Sales Lift” is music to any marketing, brand or merchandising manager’s ears. GL understands the impact packaging has when your customers are competing for market dollars.</p>
+                                                                    <p>Above all OIA’s retail business model combines material choices with an innovative design approach and color management process that supports “Sales Lift” to meet or exceed your ROI expectations.</p>
+                                                                <div class="sc_section aligncenter">
+                                                                    <figure class="sc_image  sc_image_shape_square">
+                                                                        <img src="images/330x267.png" alt="">
+                                                                    </figure>
+                                                                </div>
+                                                            </div>
+                                                            <div id="sc_tab_3" class="sc_tabs_content" aria-labelledby="sc_tab_3_tab" role="tabpanel" aria-hidden="true">
+                                                                <h3 class="sc_title sc_title_regular">Retail &amp; Transit Packaging</h3>
+                                                                <p>GL has a menu of supply chain solutions that can optimize the effectiveness of your product promotion, and reduce the cost of your packaging and distribution as well as your carbon footprint.</p>
+                                                                <p>“Sales Lift” is music to any marketing, brand or merchandising manager’s ears. GL understands the impact packaging has when your customers are competing for market dollars.</p>
+                                                                <h3 class="sc_title sc_title_regular">Optimization</h3>
+                                                                <p>GL is taking optimization to a whole new level. It has evolved into a comprehensive, fully integrated program designed to maximize productivity, minimize waste, and above all, reduce your per unit cost. Nothing exposes the weak links in your supply chain like optimization. And once those weaknesses are identified, we’ll work to eliminate them through our extensive program that includes the following key components:</p>
+                                                                <div class="columns_wrap sc_columns sc_columns_count_2">
+                                                                    <div class="col-sm-6 sc_column_item">
+                                                                        <ul class="sc_list sc_list_style_iconed">
+                                                                            <li class="sc_list_item">
+                                                                                <span class="sc_list_icon icon-ok"></span>
+                                                                                Solutions Engineering
+                                                                            </li>
+                                                                            <li class="sc_list_item">
+                                                                                <span class="sc_list_icon icon-ok"></span>
+                                                                                High-Performance Material
+                                                                            </li>
+                                                                            <li class="sc_list_item">
+                                                                                <span class="sc_list_icon icon-ok"></span>
+                                                                                Supply Chain Network
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div> 
+                                                                    <div class="col-sm-6 sc_column_item">
+                                                                        <ul class="sc_list sc_list_style_iconed">
+                                                                            <li class="sc_list_item">
+                                                                                <span class="sc_list_icon icon-ok"></span>
+                                                                                Deployed Resources
+                                                                            </li>
+                                                                            <li class="sc_list_item">
+                                                                                <span class="sc_list_icon icon-ok"></span>
+                                                                                Logistics
+                                                                            </li>
+                                                                            <li class="sc_list_item">
+                                                                                <span class="sc_list_icon icon-ok"></span>
+                                                                                Financial Reporting
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>         
+                </section>
+
+                <section class="fullwidth_section no_padding_top_container calculator_bg1">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="sc_section calculator">
+                                    <div class="sc_section_overlay">
+                                        <div class="sc_section_content">
+                                            <div class="sc_content container">
+                                                <h4 class="subtitle_container">Global<br>Logistics</h4>
+                                                <div class="sc_columns">
+                                                    <div class="col-md-8 col-sm-7 sc_column_item"></div>
+                                                    <div class="col-md-4 col-sm-5 sc_column_item">
+                                                        <h2 class="sc_title sc_title_regular sc_align_left">service<br>
+                                                        calculator</h2>
+                                                        <div class="sc_section">
+                                                            <p>Starting form. Basic calculated fields sample.</p>
+                                                        </div>
+                                                        <div class="sc_section">
+                                                            <form name="cp_calculatedfieldsf_pform_1" id="cp_calculatedfieldsf_pform_1" action="#" method="post" data-evalequations="1" autocomplete="on" novalidate="novalidate">
+                                                                <input type="hidden" name="form_structure_1" id="form_structure_1" value="[[{&quot;form_identifier&quot;:&quot;&quot;,&quot;name&quot;:&quot;fieldname11&quot;,&quot;shortlabel&quot;:&quot;&quot;,&quot;index&quot;:0,&quot;ftype&quot;:&quot;fdiv&quot;,&quot;userhelp&quot;:&quot;&quot;,&quot;userhelpTooltip&quot;:false,&quot;csslayout&quot;:&quot;&quot;,&quot;fields&quot;:[&quot;fieldname12&quot;,&quot;fieldname13&quot;,&quot;fieldname23&quot;,&quot;fieldname20&quot;],&quot;columns&quot;:&quot;1&quot;,&quot;title&quot;:&quot;div&quot;,&quot;fBuild&quot;:{}},{&quot;form_identifier&quot;:&quot;&quot;,&quot;name&quot;:&quot;fieldname13&quot;,&quot;shortlabel&quot;:&quot;&quot;,&quot;index&quot;:1,&quot;ftype&quot;:&quot;fdiv&quot;,&quot;userhelp&quot;:&quot;&quot;,&quot;userhelpTooltip&quot;:false,&quot;csslayout&quot;:&quot;&quot;,&quot;fields&quot;:[&quot;fieldname17&quot;,&quot;fieldname21&quot;,&quot;fieldname22&quot;],&quot;columns&quot;:&quot;3&quot;,&quot;title&quot;:&quot;div&quot;,&quot;fBuild&quot;:{}},{&quot;form_identifier&quot;:&quot;&quot;,&quot;name&quot;:&quot;fieldname12&quot;,&quot;shortlabel&quot;:&quot;&quot;,&quot;index&quot;:2,&quot;ftype&quot;:&quot;fdiv&quot;,&quot;userhelp&quot;:&quot;&quot;,&quot;userhelpTooltip&quot;:false,&quot;csslayout&quot;:&quot;&quot;,&quot;fields&quot;:[&quot;fieldname2&quot;,&quot;fieldname26&quot;],&quot;columns&quot;:1,&quot;title&quot;:&quot;div&quot;,&quot;fBuild&quot;:{}},{&quot;form_identifier&quot;:&quot;&quot;,&quot;name&quot;:&quot;fieldname2&quot;,&quot;shortlabel&quot;:&quot;&quot;,&quot;index&quot;:3,&quot;ftype&quot;:&quot;fnumber&quot;,&quot;userhelp&quot;:&quot;&quot;,&quot;userhelpTooltip&quot;:false,&quot;csslayout&quot;:&quot;&quot;,&quot;title&quot;:&quot;Distance&quot;,&quot;predefined&quot;:&quot;&quot;,&quot;predefinedClick&quot;:false,&quot;required&quot;:false,&quot;size&quot;:&quot;large&quot;,&quot;thousandSeparator&quot;:&quot;&quot;,&quot;decimalSymbol&quot;:&quot;.&quot;,&quot;min&quot;:&quot;&quot;,&quot;max&quot;:&quot;&quot;,&quot;dformat&quot;:&quot;number&quot;,&quot;formats&quot;:[&quot;digits&quot;,&quot;number&quot;],&quot;fBuild&quot;:{}},{&quot;form_identifier&quot;:&quot;&quot;,&quot;name&quot;:&quot;fieldname26&quot;,&quot;shortlabel&quot;:&quot;&quot;,&quot;index&quot;:4,&quot;ftype&quot;:&quot;fnumber&quot;,&quot;userhelp&quot;:&quot;&quot;,&quot;userhelpTooltip&quot;:false,&quot;csslayout&quot;:&quot;&quot;,&quot;title&quot;:&quot;Weight&quot;,&quot;predefined&quot;:&quot;&quot;,&quot;predefinedClick&quot;:false,&quot;required&quot;:false,&quot;size&quot;:&quot;large&quot;,&quot;thousandSeparator&quot;:&quot;&quot;,&quot;decimalSymbol&quot;:&quot;.&quot;,&quot;min&quot;:&quot;&quot;,&quot;max&quot;:&quot;&quot;,&quot;dformat&quot;:&quot;number&quot;,&quot;formats&quot;:[&quot;digits&quot;,&quot;number&quot;],&quot;fBuild&quot;:{}},{&quot;form_identifier&quot;:&quot;&quot;,&quot;name&quot;:&quot;fieldname17&quot;,&quot;shortlabel&quot;:&quot;Length&quot;,&quot;index&quot;:5,&quot;ftype&quot;:&quot;fnumber&quot;,&quot;userhelp&quot;:&quot;&quot;,&quot;userhelpTooltip&quot;:false,&quot;csslayout&quot;:&quot;&quot;,&quot;title&quot;:&quot;Length&quot;,&quot;predefined&quot;:&quot;&quot;,&quot;predefinedClick&quot;:false,&quot;required&quot;:false,&quot;size&quot;:&quot;large&quot;,&quot;thousandSeparator&quot;:&quot;&quot;,&quot;decimalSymbol&quot;:&quot;.&quot;,&quot;min&quot;:&quot;&quot;,&quot;max&quot;:&quot;&quot;,&quot;dformat&quot;:&quot;number&quot;,&quot;formats&quot;:[&quot;digits&quot;,&quot;number&quot;],&quot;fBuild&quot;:{}},{&quot;form_identifier&quot;:&quot;&quot;,&quot;name&quot;:&quot;fieldname21&quot;,&quot;shortlabel&quot;:&quot;Height&quot;,&quot;index&quot;:6,&quot;ftype&quot;:&quot;fnumber&quot;,&quot;userhelp&quot;:&quot;&quot;,&quot;userhelpTooltip&quot;:false,&quot;csslayout&quot;:&quot;&quot;,&quot;title&quot;:&quot;Height&quot;,&quot;predefined&quot;:&quot;&quot;,&quot;predefinedClick&quot;:false,&quot;required&quot;:false,&quot;size&quot;:&quot;large&quot;,&quot;thousandSeparator&quot;:&quot;&quot;,&quot;decimalSymbol&quot;:&quot;.&quot;,&quot;min&quot;:&quot;&quot;,&quot;max&quot;:&quot;&quot;,&quot;dformat&quot;:&quot;number&quot;,&quot;formats&quot;:[&quot;digits&quot;,&quot;number&quot;],&quot;fBuild&quot;:{}},{&quot;form_identifier&quot;:&quot;&quot;,&quot;name&quot;:&quot;fieldname22&quot;,&quot;shortlabel&quot;:&quot;Width&quot;,&quot;index&quot;:7,&quot;ftype&quot;:&quot;fnumber&quot;,&quot;userhelp&quot;:&quot;&quot;,&quot;userhelpTooltip&quot;:false,&quot;csslayout&quot;:&quot;&quot;,&quot;title&quot;:&quot;Width&quot;,&quot;predefined&quot;:&quot;&quot;,&quot;predefinedClick&quot;:false,&quot;required&quot;:false,&quot;size&quot;:&quot;large&quot;,&quot;thousandSeparator&quot;:&quot;&quot;,&quot;decimalSymbol&quot;:&quot;.&quot;,&quot;min&quot;:&quot;&quot;,&quot;max&quot;:&quot;&quot;,&quot;dformat&quot;:&quot;number&quot;,&quot;formats&quot;:[&quot;digits&quot;,&quot;number&quot;],&quot;fBuild&quot;:{}},{&quot;form_identifier&quot;:&quot;&quot;,&quot;name&quot;:&quot;fieldname9&quot;,&quot;shortlabel&quot;:&quot;&quot;,&quot;index&quot;:8,&quot;ftype&quot;:&quot;fCalculated&quot;,&quot;userhelp&quot;:&quot;&quot;,&quot;userhelpTooltip&quot;:false,&quot;csslayout&quot;:&quot;result&quot;,&quot;title&quot;:&quot;The field below will show the double of the number above ($)&quot;,&quot;predefined&quot;:&quot;&quot;,&quot;required&quot;:false,&quot;size&quot;:&quot;large&quot;,&quot;toolbar&quot;:&quot;default|mathematical&quot;,&quot;eq&quot;:&quot;(fieldname2*fieldname26*fieldname17*fieldname21*fieldname22)/20+fieldname24+fieldname25&quot;,&quot;optimizeEq&quot;:true,&quot;eq_factored&quot;:&quot;((fieldname2*fieldname26*fieldname17*fieldname21*fieldname22)/20+fieldname24+fieldname25)&quot;,&quot;suffix&quot;:&quot;&quot;,&quot;prefix&quot;:&quot;&quot;,&quot;decimalsymbol&quot;:&quot;.&quot;,&quot;groupingsymbol&quot;:&quot;&quot;,&quot;dependencies&quot;:[{&quot;rule&quot;:&quot;&quot;,&quot;complex&quot;:false,&quot;fields&quot;:[&quot;&quot;]}],&quot;readonly&quot;:false,&quot;hidefield&quot;:false,&quot;fBuild&quot;:{}},{&quot;form_identifier&quot;:&quot;&quot;,&quot;name&quot;:&quot;fieldname20&quot;,&quot;shortlabel&quot;:&quot;&quot;,&quot;index&quot;:9,&quot;ftype&quot;:&quot;fdiv&quot;,&quot;userhelp&quot;:&quot;&quot;,&quot;userhelpTooltip&quot;:false,&quot;csslayout&quot;:&quot;&quot;,&quot;fields&quot;:[&quot;fieldname9&quot;],&quot;columns&quot;:1,&quot;title&quot;:&quot;div&quot;,&quot;fBuild&quot;:{}},{&quot;form_identifier&quot;:&quot;&quot;,&quot;name&quot;:&quot;fieldname23&quot;,&quot;shortlabel&quot;:&quot;&quot;,&quot;index&quot;:10,&quot;ftype&quot;:&quot;fdiv&quot;,&quot;userhelp&quot;:&quot;&quot;,&quot;userhelpTooltip&quot;:false,&quot;csslayout&quot;:&quot;&quot;,&quot;fields&quot;:[&quot;fieldname24&quot;,&quot;fieldname25&quot;],&quot;columns&quot;:1,&quot;title&quot;:&quot;div&quot;,&quot;fBuild&quot;:{}},{&quot;form_identifier&quot;:&quot;&quot;,&quot;name&quot;:&quot;fieldname24&quot;,&quot;shortlabel&quot;:&quot;&quot;,&quot;index&quot;:11,&quot;ftype&quot;:&quot;fradio&quot;,&quot;userhelp&quot;:&quot;&quot;,&quot;userhelpTooltip&quot;:false,&quot;csslayout&quot;:&quot;radio_label_top&quot;,&quot;title&quot;:&quot;Fragile:&quot;,&quot;layout&quot;:&quot;three_column&quot;,&quot;required&quot;:false,&quot;choiceSelected&quot;:&quot;Yes - 100&quot;,&quot;showDep&quot;:false,&quot;choices&quot;:[&quot;Yes&quot;,&quot;No&quot;],&quot;choicesVal&quot;:[&quot;100&quot;,&quot;0&quot;],&quot;choicesDep&quot;:[[],[]],&quot;fBuild&quot;:{}},{&quot;form_identifier&quot;:&quot;&quot;,&quot;name&quot;:&quot;fieldname25&quot;,&quot;shortlabel&quot;:&quot;&quot;,&quot;index&quot;:12,&quot;ftype&quot;:&quot;fcheck&quot;,&quot;userhelp&quot;:&quot;&quot;,&quot;userhelpTooltip&quot;:false,&quot;csslayout&quot;:&quot;label_top&quot;,&quot;title&quot;:&quot;Extra services:&quot;,&quot;layout&quot;:&quot;one_column&quot;,&quot;required&quot;:false,&quot;showDep&quot;:false,&quot;choices&quot;:[&quot;Express Delivery&quot;,&quot;Insurance&quot;,&quot;Packaging&quot;],&quot;choicesVal&quot;:[&quot;100&quot;,&quot;100&quot;,&quot;100&quot;],&quot;choiceSelected&quot;:[true,false,false],&quot;choicesDep&quot;:[[],[],[]],&quot;fBuild&quot;:{}}],[{&quot;title&quot;:&quot;&quot;,&quot;description&quot;:&quot;&quot;,&quot;formlayout&quot;:&quot;top_aligned&quot;,&quot;formtemplate&quot;:&quot;&quot;,&quot;evalequations&quot;:1,&quot;autocomplete&quot;:1}]]">
+                                                                <div id="fbuilder">
+                                                                    <div id="fieldlist_1" class="top_aligned">
+                                                                        <div class="pb0 pbreak">
+                                                                            <div class="fields">
+                                                                                <div class="fields">
+                                                                                    <div class="fields">
+                                                                                        <label>Distance</label>
+                                                                                        <div class="dfield">
+                                                                                            <input name="fieldname2_1" class="field number large" type="text" value="">
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="fields">
+                                                                                        <label>Weight</label>
+                                                                                        <div class="dfield">
+                                                                                            <input name="fieldname26_1" class="field number large" type="text" value="">
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="fields">
+                                                                                    <div class="fields column3">
+                                                                                        <label>Length</label>
+                                                                                        <div class="dfield">
+                                                                                            <input name="fieldname17_1" class="field number large" type="text" value="">
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="fields column3">
+                                                                                        <label>Height</label>
+                                                                                        <div class="dfield">
+                                                                                            <input name="fieldname21_1" class="field number large" type="text" value="">
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="fields column3">
+                                                                                        <label>Width</label>
+                                                                                        <div class="dfield">
+                                                                                            <input name="fieldname22_1" class="field number large" type="text" value="">
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="fields">
+                                                                                    <div class="fields radio_label_top">
+                                                                                        <label>Fragile:</label>
+                                                                                        <div class="dfield">
+                                                                                            <div class="three_column">
+                                                                                                <div class="jq-radio field  group  checked">
+                                                                                                    <input name="fieldname24_1" class="field  group " value="100" type="radio" checked="">
+                                                                                                    <div class="jq-radio__div"></div>
+                                                                                                </div> 
+                                                                                                Yes
+                                                                                            </div>
+                                                                                            <div class="three_column">
+                                                                                                <div class="jq-radio field  group ">
+                                                                                                    <input name="fieldname24_1" class="field  group " value="0" type="radio">
+                                                                                                    <div class="jq-radio__div"></div>
+                                                                                                </div> 
+                                                                                                No
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="fields label_top">
+                                                                                        <label>Extra services:</label>
+                                                                                        <div class="dfield">
+                                                                                            <div class="one_column">
+                                                                                                <div class="jq-checkbox field  group  checked">
+                                                                                                    <input name="fieldname25_1[]" class="field  group " value="100" type="checkbox" checked="">
+                                                                                                    <div class="jq-checkbox__div"></div>
+                                                                                                </div> 
+                                                                                                Express Delivery
+                                                                                            </div>
+                                                                                            <div class="one_column">
+                                                                                                <div class="jq-checkbox field  group ">
+                                                                                                    <input name="fieldname25_1[]" class="field  group " value="100"  type="checkbox">
+                                                                                                    <div class="jq-checkbox__div"></div>
+                                                                                                </div> 
+                                                                                                Insurance
+                                                                                            </div>
+                                                                                            <div class="one_column">
+                                                                                                <div class="jq-checkbox field  group ">
+                                                                                                    <input name="fieldname25_1[]" class="field  group " value="100"  type="checkbox" >
+                                                                                                    <div class="jq-checkbox__div"></div>
+                                                                                                </div> 
+                                                                                                Packaging
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="fields ">
+                                                                                    <div class="fields result">
+                                                                                        <label>The field below will show the double of the number above ($)</label>
+                                                                                        <div class="dfield">
+                                                                                            <input name="fieldname9_1" class="codepeoplecalculatedfield field large" type="text" value="">
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div> 
+                                                            </form>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                
+                </section>
+
+                <section class="fullwidth_section grey_section no_padding_top_container timeline_section">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="sc_section">
+                                    <div class="sc_section_overlay">
+                                        <div class="sc_section_content">
+                                            <div class="sc_content container">
+                                                <h4 class="subtitle_container">Global<br>Logistics</h4>
+                                                <h2 class="sc_title sc_title_regular sc_align_left">Company timeline</h2>
+                                            </div>
+                                            <div class="sc_section bg_tint_none">
+                                                <!-- BEGIN TIMELINE --> 
+
+                                                <div id="tl1" class="timeline flatLine">
+                                                    <div class="item" data-id="01/04/2015" data-description="April, 1" data-count="0">
+                                                        <a class="con_borderImage">
+                                                            <img src="images/timeline/240x130.png" alt="">
+                                                        </a>
+                                                        <h2>April, 1</h2>
+                                                        <span>As a market leader in global air freight forwarding, OIA Global excels in providing tailored</span>
+                                                    </div>
+                                                    <div class="item_open" data-id="01/04/2015" data-count="0">
+                                                        <div class="item_open_cwrapper">
+                                                            <div class="t_close" data-count="0" data-id="01/04/2015">Close</div>
+                                                            <div class="item_open_content">
+                                                                <img class="ajaxloader" src="images/timeline/loadingAnimation.gif" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item" data-id="05/04/2015" data-description="April, 5" data-count="1">
+                                                        <a class="con_borderImage">
+                                                            <img src="images/timeline/240x130.png" alt="">
+                                                        </a>
+                                                        <h2>April, 5</h2>
+                                                        <span>As a market leader in global air freight forwarding, OIA Global excels in providing tailored</span>
+                                                    </div>
+                                                    <div class="item_open" data-id="05/04/2015" data-count="1">
+                                                        <div class="item_open_cwrapper">
+                                                            <div class="t_close" data-count="1" data-id="05/04/2015">Close</div>
+                                                            <div class="item_open_content">
+                                                                <img class="ajaxloader" src="images/timeline/loadingAnimation.gif" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item" data-id="08/04/2015" data-description="April, 8" data-count="2">
+                                                        <a class="con_borderImage">
+                                                            <img src="images/timeline/240x130.png" alt="">
+                                                        </a>
+                                                        <h2>April, 8</h2>
+                                                        <span>As a market leader in global air freight forwarding, OIA Global excels in providing tailored</span>
+                                                    </div>
+                                                    <div class="item_open" data-id="08/04/2015" data-count="2">
+                                                        <div class="item_open_cwrapper">
+                                                            <div class="t_close" data-count="2" data-id="08/04/2015">Close</div>
+                                                            <div class="item_open_content">
+                                                                <img class="ajaxloader" src="images/timeline/loadingAnimation.gif" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item" data-id="11/04/2015" data-description="April, 11" data-count="3">
+                                                        <a class="con_borderImage">
+                                                            <img src="images/timeline/240x130.png" alt="">
+                                                        </a>
+                                                        <h2>April, 11</h2>
+                                                        <span>As a market leader in global air freight forwarding, OIA Global excels in providing tailored </span>
+                                                    </div>
+                                                    <div class="item_open" data-id="11/04/2015" data-count="3">
+                                                        <div class="item_open_cwrapper">
+                                                            <div class="t_close" data-count="3" data-id="11/04/2015">Close</div>
+                                                            <div class="item_open_content">
+                                                                <img class="ajaxloader" src="images/timeline/loadingAnimation.gif" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item" data-id="16/04/2015" data-description="April, 16" data-count="4">
+                                                        <a class="con_borderImage">
+                                                            <img src="images/timeline/240x130.png" alt="">
+                                                        </a>
+                                                        <h2>April, 16</h2>
+                                                        <span>As a market leader in global air freight forwarding, OIA Global excels in providing tailored </span>
+                                                    </div>
+                                                    <div class="item_open" data-id="16/04/2015" data-count="4">
+                                                        <div class="item_open_cwrapper">
+                                                            <div class="t_close" data-count="4" data-id="16/04/2015">Close</div>
+                                                            <div class="item_open_content">
+                                                                <img class="ajaxloader" src="images/timeline/loadingAnimation.gif" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item" data-id="19/04/2015" data-description="April, 19" data-count="5">
+                                                        <a class="con_borderImage">
+                                                            <img src="images/timeline/240x130.png" alt="">
+                                                        </a>
+                                                        <h2>April, 19</h2>
+                                                        <span>As a market leader in global air freight forwarding, OIA Global excels in providing tailored</span>
+                                                    </div>
+                                                    <div class="item_open" data-id="19/04/2015" data-count="5">
+                                                        <div class="item_open_cwrapper">
+                                                            <div class="t_close" data-count="5" data-id="19/04/2015">Close</div>
+                                                            <div class="item_open_content">
+                                                                <img class="ajaxloader" src="images/timeline/loadingAnimation.gif" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item" data-id="23/04/2015" data-description="April, 23" data-count="6">
+                                                        <a class="con_borderImage">
+                                                            <img src="images/timeline/240x130.png" alt="">
+                                                        </a>
+                                                        <h2>April, 23</h2>
+                                                        <span>As a market leader in global air freight forwarding, OIA Global excels in providing tailored </span>
+                                                    </div>
+                                                    <div class="item_open" data-id="23/04/2015" data-count="6">
+                                                        <div class="item_open_cwrapper">
+                                                            <div class="t_close" data-count="6" data-id="23/04/2015">Close</div>
+                                                            <div class="item_open_content">
+                                                                <img class="ajaxloader" src="images/timeline/loadingAnimation.gif" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item" data-id="27/04/2015" data-description="April, 27" data-count="7">
+                                                        <a class="con_borderImage">
+                                                            <img src="images/timeline/240x130.png" alt="">
+                                                        </a>
+                                                        <h2>April, 27</h2>
+                                                        <span>As a market leader in global air freight forwarding, OIA Global excels in providing tailored </span>
+                                                    </div>
+                                                    <div class="item_open" data-id="27/04/2015" data-count="7">
+                                                        <div class="item_open_cwrapper">
+                                                            <div class="t_close" data-count="7" data-id="27/04/2015">Close</div>
+                                                            <div class="item_open_content">
+                                                                <img class="ajaxloader" src="images/timeline/loadingAnimation.gif" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item" data-id="02/05/2015" data-description="May, 2" data-count="8">
+                                                        <a class="con_borderImage">
+                                                            <img src="images/timeline/240x130.png" alt="">
+                                                        </a>
+                                                        <h2>May, 2</h2>
+                                                        <span>As a market leader in global air freight forwarding, OIA Global excels in providing tailored</span>
+                                                    </div>
+                                                    <div class="item_open" data-id="02/05/2015" data-count="8">
+                                                        <div class="item_open_cwrapper">
+                                                            <div class="t_close" data-count="8" data-id="02/05/2015">Close</div>
+                                                            <div class="item_open_content">
+                                                                <img class="ajaxloader" src="images/timeline/loadingAnimation.gif" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item" data-id="06/05/2015" data-description="May, 6" data-count="9">
+                                                        <a class="con_borderImage">
+                                                            <img src="images/timeline/240x130.png" alt="">
+                                                        </a>
+                                                        <h2>May, 6</h2>
+                                                        <span>As a market leader in global air freight forwarding, OIA Global excels in providing tailored</span>
+                                                    </div>
+                                                    <div class="item_open" data-id="06/05/2015" data-count="9">
+                                                        <div class="item_open_cwrapper">
+                                                            <div class="t_close" data-count="9" data-id="06/05/2015">Close</div>
+                                                            <div class="item_open_content">
+                                                                <img class="ajaxloader" src="images/timeline/loadingAnimation.gif" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item" data-id="12/05/2015" data-name="May, 12" data-description="May, 12" data-count="10">
+                                                        <a class="con_borderImage">
+                                                            <img src="images/timeline/240x130.png" alt="">
+                                                        </a>
+                                                        <h2>May, 12</h2>
+                                                        <span>As a market leader in global air freight forwarding, OIA Global excels in providing tailored</span>
+                                                    </div>
+                                                    <div class="item_open" data-id="12/05/2015" data-count="10">
+                                                        <div class="item_open_cwrapper">
+                                                            <div class="t_close" data-count="10" data-id="12/05/2015">Close</div>
+                                                            <div class="item_open_content">
+                                                                <img class="ajaxloader" src="images/timeline/loadingAnimation.gif" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item" data-id="22/05/2015" data-description="May, 22" data-count="11">
+                                                        <a class="con_borderImage">
+                                                            <img src="images/timeline/240x130.png" alt="">
+                                                        </a>
+                                                        <h2>May, 22</h2>
+                                                        <span>As a market leader in global air freight forwarding, OIA Global excels in providing tailored</span>
+                                                    </div>
+                                                    <div class="item_open" data-id="22/05/2015" data-count="11">
+                                                        <div class="item_open_cwrapper">
+                                                            <div class="t_close" data-count="11" data-id="22/05/2015">Close</div>
+                                                            <div class="item_open_content">
+                                                                <img class="ajaxloader" src="images/timeline/loadingAnimation.gif" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item" data-id="02/06/2015" data-description="June, 2" data-count="12">
+                                                        <a class="con_borderImage">
+                                                            <img src="images/timeline/240x130.png" alt="">
+                                                        </a>
+                                                        <h2>June, 2</h2>
+                                                        <span>As a market leader in global air freight forwarding, OIA Global excels in providing tailored </span>
+                                                    </div>
+                                                    <div class="item_open" data-id="02/06/2015" data-count="12">
+                                                        <div class="item_open_cwrapper">
+                                                            <div class="t_close" data-count="12" data-id="02/06/2015">Close</div>
+                                                            <div class="item_open_content">
+                                                                <img class="ajaxloader" src="images/timeline/loadingAnimation.gif" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                                <!-- END TIMELINE --> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                
+                </section>
+
+                <section class="fullwidth_section no_padding_container testimonals_section testimonals_bg1">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="sc_section">
+                                    <div class="sc_section_overlay">
+                                        <div class="sc_section_content">
+                                            <div class="sc_content container" >
+                                                <h4 class="subtitle_container">Global<br>Logistics</h4>
+                                                <h2 class="sc_title sc_title_regular sc_align_left">what people say about us</h2>
+                                                <div class="sc_testimonials sc_slider_swiper swiper-slider-container sc_slider_controls sc_slider_height_auto" data-interval="7000">
+                                                    <div class="slides swiper-wrapper">
+                                                        <div class="swiper-slide">
+                                                            <div class="sc_testimonial_item">
+                                                                <div class="sc_testimonial_avatar">
+                                                                    <img alt="testimonial2.jpg" src="images/testimonial/135x135.png">
+                                                                </div>
+                                                                <div class="sc_testimonial_wrap">
+                                                                    <div class="sc_testimonial_content">
+                                                                        <p>Their performance on our project was extremely successful. As a result of this collaboration, the project<br>
+                                                                    was built with exceptional quality and was delivered in time and within budget.</p>
+                                                                    </div>
+                                                                    <div class="sc_testimonial_author">
+                                                                        <a href="#">Samuel Kleo</a>
+                                                                    </div>
+                                                                    <div class="sc_testimonial_field">CEO, Global Company Inc., France </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="swiper-slide">
+                                                            <div class="sc_testimonial_item">
+                                                                <div class="sc_testimonial_avatar">
+                                                                    <img alt="testimonial3.jpg" src="images/testimonial/135x135.png">
+                                                                </div>
+                                                                <div class="sc_testimonial_wrap">
+                                                                    <div class="sc_testimonial_content">
+                                                                        <p>The construction process with this crew was a pleasurable experience! They did<br>
+                                                                    all in time and  with no safety incidents. Thank you so much guys!</p>
+                                                                    </div>
+                                                                    <div class="sc_testimonial_author">
+                                                                        <a href="#">Amy Adams</a>
+                                                                    </div>
+                                                                    <div class="sc_testimonial_field">CEO, Global Company Inc., France </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="swiper-slide">
+                                                            <div class="sc_testimonial_item">
+                                                                <div class="sc_testimonial_avatar">
+                                                                    <img alt="testimonial1.jpg" src="images/testimonial/135x135.png">
+                                                                </div>
+                                                                <div class="sc_testimonial_wrap">
+                                                                    <div class="sc_testimonial_content">
+                                                                        <p>These guys are just the coolest builders ever! They were aware of our financial structure<br>
+                                                                    and focus on cost efficiencies , and they did deliver an exceptional project!</p>
+                                                                    </div>
+                                                                    <div class="sc_testimonial_author">
+                                                                        <a href="#">Michael Holberg</a>
+                                                                    </div>
+                                                                    <div class="sc_testimonial_field">CEO, Global Company Inc., France </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="sc_slider_controls_wrap">
+                                                        <a class="sc_slider_prev" href="#"></a>
+                                                        <a class="sc_slider_next" href="#"></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                
+                </section>
+
+                <section class="fullwidth_section no_padding_container news_section">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="sc_section">
+                                    <div class="sc_content container">
+                                        <h4 class="subtitle_container">Global<br>
+                                        Logistics</h4>
+                                        <h2 class="sc_title sc_title_regular sc_align_left">featured news</h2>
+                                        <div  class="sc_blogger layout_news template_news sc_blogger_horizontal">
+                                            <div class="columns_wrap">
+                                                <div class="col-sm-3 column_item_1">
+                                                    <div class="post_item post_item_news sc_blogger_item">
+                                                        <h4 class="post_title sc_title sc_blogger_title">Air Freight Forwarding</h4>            
+                                                        <div class="post_content sc_blogger_content">
+                                                            <div class="post_descr">
+                                                                <p>As a market leader in global air freight forwarding, OIA Global excels in providing tailored...</p>
+                                                                <a href="#" class="sc_button sc_button_square sc_button_bg_underline  sc_button_iconed ">
+                                                                Learn more
+                                                                    <span class="sc_button_iconed icon-right"></span>
+                                                                </a>
+                                                            </div>
+                                                        </div>  
+                                                    </div>      
+                                                </div>  
+                                                <div class="col-sm-3 column_item_2">
+                                                    <div class="post_item post_item_news sc_blogger_item">
+                                                        <h4 class="post_title sc_title sc_blogger_title">Ocean Freight Forwarding</h4>          
+                                                        <div class="post_content sc_blogger_content">
+                                                            <div class="post_descr">
+                                                                <p>Ocean Freight plays perhaps the most vital role in most transportation and supply chain...</p>
+                                                                <a href="#" class="sc_button sc_button_square sc_button_bg_underline  sc_button_iconed ">
+                                                                    Learn more
+                                                                    <span class="sc_button_iconed icon-right"></span>
+                                                                </a>
+                                                            </div>
+                                                        </div>  
+                                                    </div>      
+                                                </div>  
+                                                <div class="col-sm-3 column_item_3">
+                                                    <div class="post_item post_item_news sc_blogger_item">
+                                                        <h4 class="post_title sc_title sc_blogger_title">Road Freight  Forwarding</h4>          
+                                                        <div class="post_content sc_blogger_content">
+                                                            <div class="post_descr">
+                                                                <p>Nearly all items of cargo are transported at some stage of their journey along the world’s...</p>
+                                                                <a href="#" class="sc_button sc_button_square sc_button_bg_underline  sc_button_iconed ">
+                                                                    Learn more
+                                                                    <span class="sc_button_iconed icon-right"></span>
+                                                                </a>
+                                                            </div>
+                                                        </div>  
+                                                    </div>      
+                                                </div>  
+                                                <div class="col-sm-3 column_item_4 last">
+                                                    <div class="post_item post_item_news sc_blogger_item sc_blogger_item_last">
+                                                        <h4 class="post_title sc_title sc_blogger_title">Expedited Services</h4>            
+                                                        <div class="post_content sc_blogger_content">
+                                                            <div class="post_descr">
+                                                                <p>Global Logistic understands part of the supply chain optimization process is having a level of...</p>
+                                                                <a href="#" class="sc_button sc_button_square sc_button_bg_underline  sc_button_iconed ">
+                                                                Learn more
+                                                                    <span class="sc_button_iconed icon-right"></span>
+                                                                </a>
+                                                            </div>
+                                                        </div>  
+                                                    </div>      
+                                                </div>  
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                
+                </section>
+
+                <section class="fullwidth_section no_padding_top_container emailer_section">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="sc_section">
+                                    <div class="sc_content container">
+                                        <div class="sc_line sc_line_style_solid"></div>
+                                        <div class="sc_emailer alignleft sc_emailer_opened">
+                                            <form class="sc_emailer_form">
+                                                <span class="title">Newsletter</span>
+                                                <input type="text" class="sc_emailer_input" name="email" value="" placeholder="Enter your Email here">
+                                                <a href="#" class="sc_emailer_button" title="Submit" data-group="E-mailer subscription">Subscribe</a>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="fullwidth_section no_padding_top_container dark_section">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="sc_section">
+                                    <div class="sc_section_overlay">
+                                        <div class="sc_section_content">
+                                            <div class="sc_content container">
+                                                <div class="sc_contact_form sc_contact_form_standard">
+                                                    <div class="sc_contact_form_left">
+                                                        <div class="sc_contact_info">
+                                                            <h6 class="sc_contact_form_subtitle">Global<br>Logistics</h6>
+                                                            <h2 class="sc_contact_form_title">contact us</h2>
+                                                            <div class="sc_contact_form_address_wrap">
+                                                                <div class="sc_contact_form_address_field">
+                                                                    <span class="sc_contact_form_address_data">
+                                                                        <b>Global Logistics</b>
+                                                                        <br>San Francisco, CA 94102, US
+                                                                        <br>1234 Some St
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="sc_contact_info_bottom">
+                                                            <div class="sc_contact_form_address_wrap">
+                                                                <div class="sc_contact_form_address_field">
+                                                                    <span class="sc_contact_form_address_label">tel.: </span>
+                                                                    <span class="sc_contact_form_address_data">+1 (44) 123-45-67</span>
+                                                                </div>
+                                                                <div class="sc_contact_form_address_field">
+                                                                    <span class="sc_contact_form_address_label">e-mail: </span>
+                                                                    <span class="sc_contact_form_address_data">info@yoursite.com</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="sc_socials sc_socials_size_small  color_icons">
+                                                                <div class="sc_socials_item">
+                                                                    <a href="https://twitter.com/Theme_REX" target="_blank" class="social_icons social_twitter icons">
+                                                                        <span class="icon-twitter"></span>
+                                                                        <span class="sc_socials_hover icon-twitter"></span>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="sc_socials_item">
+                                                                    <a href="https://www.facebook.com/themerex" target="_blank" class="social_icons social_facebook icons">
+                                                                        <span class="icon-facebook"></span>
+                                                                        <span class="sc_socials_hover icon-facebook"></span>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="sc_socials_item">
+                                                                    <a href="https://plus.google.com/102189073109602153696" target="_blank" class="social_icons social_gplus icons">
+                                                                        <span class="icon-gplus"></span>
+                                                                        <span class="sc_socials_hover icon-gplus"></span>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="sc_socials_item">
+                                                                    <a href="#" target="_blank" class="social_icons social_linkedin icons">
+                                                                        <span class="icon-linkedin"></span>
+                                                                        <span class="sc_socials_hover icon-linkedin"></span>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="sc_contact_form_right">
+                                                        <p class="sc_contact_form_description">Your email address will not be published. Required fields are marked *</p>
+                                                        <form data-formtype="contact" method="post" action="#">
+                                                            <div class="sc_contact_form_info">
+                                                                <div class="sc_contact_form_item sc_contact_form_field label_over">
+                                                                    <label class="required" for="sc_contact_form_username">Name</label>
+                                                                    <input id="sc_contact_form_username" type="text" name="username" placeholder="Name">
+                                                                </div>
+                                                                <div class="sc_contact_form_item sc_contact_form_field label_over">
+                                                                    <label class="required" for="sc_contact_form_email">E-mail</label>
+                                                                    <input id="sc_contact_form_email" type="text" name="email" placeholder="Email">
+                                                                </div>
+                                                                <div class="sc_contact_form_item sc_contact_form_field label_over">
+                                                                    <label class="required" for="sc_contact_form_subj">Subject</label>
+                                                                    <input id="sc_contact_form_subj" type="text" name="subject" placeholder="Subject">
+                                                                </div>
+                                                            </div>
+                                                            <div class="sc_contact_form_item sc_contact_form_message label_over">
+                                                                <label class="required" for="sc_contact_form_message">Message</label>
+                                                                <textarea id="sc_contact_form_message" name="message" placeholder="Message"></textarea>
+                                                            </div>
+                                                            <div class="sc_contact_form_item sc_contact_form_button">
+                                                                <button>
+                                                                    Send message
+                                                                    <span class="icon-mail-alt"></span>
+                                                                </button>
+                                                            </div>
+                                                            <div class="result sc_infobox"></div>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>    
+
+            </div>        
+
+            <section class="copyright_wrap fullwidth_section dark_section">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="container">
+                                <p>ThemeREX © 2015 All Rights Reserved. 
+                                    <a href="#">Terms of Use</a> 
+                                    and
+                                    <a href="#">Privacy Policy</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+                    
+        </div>
+
+    </div>
+
+<div class="preloader">
+    <div class="preloader_image"></div>
+</div>
+
+    <script type="text/javascript" src="js/vendor/jquery.js"></script>
+    <script type="text/javascript" src="js/vendor/jquery-migrate.min.js"></script>
+    <script type="text/javascript" src="js/vendor/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="js/vendor/jquery.timeline.min.js"></script>
+    <script type="text/javascript" src="js/vendor/revslider/js/jquery.themepunch.tools.min.js"></script>
+    <script type="text/javascript" src="js/vendor/revslider/js/jquery.themepunch.revolution.min.js"></script>
+
+    <!--<script type="text/javascript" src="custom_tools/js/front.customizer.js"></script>
+    <script type="text/javascript" src="custom_tools/js/skin.customizer.js"></script>-->
+    
+    <script type="text/javascript" src="js/_packed.js"></script>
+    <script type="text/javascript" src="js/shortcodes.min.js"></script>
+    <script type="text/javascript" src="js/_main.js"></script>
+        
+    <script type="text/javascript" src="js/vendor/jquery.formstyler.js"></script>
+    <script type="text/javascript" src="js/vendor/jquery.validate.js"></script>
+    <script type="text/javascript" src="js/vendor/logical.js"></script>
+   
 
 </body>
 </html>
